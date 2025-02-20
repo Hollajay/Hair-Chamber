@@ -1,12 +1,10 @@
+import React from 'react'
+import Navbar from './components/Navbar'
 
-import './App.css'
-
-function App() {
-
-
+const App = () => {
   return (
     <>
-    <div><h1 className='text-2xl text-blue-700 underline hover:text-red-400'>Hair salon</h1></div>
+      <Navbar/>
     </>
   )
 }
